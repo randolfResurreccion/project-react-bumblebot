@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("https://www.xmple.com/wallpaper/white-beehive-hexagon-yellow-honeycomb-1920x1080-c2-ffd700-f0f8ff-l2-14-181-a-45-f-5.svg");
+        }
+
+        .card {
+            margin-top: 200px;
+        }
+
+        .card-content {
+            background-color: rgb(31, 28, 28);
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div className="container">
+        <div className="row">
+            <div className="col s12 m12">
+                <div className="card blue-grey darken-1">
+                    <div className="card-content white-text">
+                        <span className="card-title">Register</span>
+                        <div className="row">
+                            <form className="col s12">
+                                <div className="row">
+                                    <div className="input-field col s12">
+                                        <label for="username">Username</label>
+                                        <input placeholder="username" id="username" type="text" className="validate" />
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="input-field col s12">
+                                        <label for="password">Password</label>
+                                        <input placeholder="password" id="password" type="password" className="validate" />
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="input-field col s12">
+                                        <label for="reEnterPwd">Re-Enter Password</label>
+                                        <input placeholder="-" id="reEnterPwd" type="password" className="validate" />
+                                    </div>
+                                </div>
+                            </form>
+                            <div className="row">
+                                <button className="btn waves-effect waves-light" type="submit" name="action">Submit
+                                    <i className="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <style>
+        .btn,
+        .btn-large {
+            text-decoration: none;
+            color: #fff;
+            background-color: #0e0d0d;
+            text-align: center;
+            letter-spacing: .5px;
+            -webkit-transition: .2s ease-out;
+            transition: .2s ease-out;
+            cursor: pointer;
+        }
+
+        a {
+            color: #de5a08;
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .card .card-content {
+            padding: 24px;
+            border-radius: 0 0 2px 2px;
+            background-color: #e6d54d;
+            margin-top: 100px;
+        }
+
+        .white-text {
+            color: #1f1d1d !important;
+        }
+
+        .btn:hover {
+            background-color: rgb(48, 48, 39);
+        }
+
+        input::placeholder {
+            color: rgb(26, 23, 23);
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">BumbleBot</span>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="Log In" id="log-in" type="text" class="validate">
+                                        <label for="log-in"></label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="Password" id="password" type="password" class="validate">
+                                        <label for="password"></label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                        <i class="material-icons right"></i>
+                                    </button>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        Not a Member? Register
+                                        <a href="#">Here</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

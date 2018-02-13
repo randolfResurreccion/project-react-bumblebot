@@ -1,0 +1,29 @@
+
+
+
+.nav-wrapper {
+    color: #ece35c;
+    background-color: rgba(211, 240, 84, 0.87);
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: rgb(8, 8, 8);
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+
+nav .brand-logo {
+    position: absolute;
+    color: rgb(31, 28, 28);
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
